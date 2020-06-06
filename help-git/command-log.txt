@@ -1,1 +1,2 @@
 git log: Show previous commits. reverse chronological order.
+git log -p 2: show last 2 log history.
