@@ -1,0 +1,11 @@
+git config alias.stat 'status -s'
+# go to git config, update alias stat as stat = status -s
+git diff command.txt
+Difference of staged from head: git diff --staged command.txt
+Difference from head: git diff @
+Show log of all commit: git log
+Show all lines history commit: git blame command.txt
+git reset last commit: git reset @
+show log history one line: git log --pretty=oneline --abbrev-commit --tags
+go back one commit: git reset @~
+show last one commit with status: git show -1 --name-status
